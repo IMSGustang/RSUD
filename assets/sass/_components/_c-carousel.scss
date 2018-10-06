@@ -1,0 +1,14 @@
+.c-carousel {
+  position: relative;
+  & .el-carousel {
+    & .el-carousel__container {
+      height: 460px;
+      & .el-carousel__item {
+        & img {
+          max-width: 100%;
+          min-height: 460px;
+        }
+      }
+    }
+  }
+}
