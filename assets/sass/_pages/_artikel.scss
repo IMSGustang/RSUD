@@ -93,5 +93,35 @@
         }
       }
     }
+
+    & .my-gallery {
+      position: relative;
+      box-sizing: border-box;
+      margin-left: -5px;
+      margin-right: -5px;
+
+      & figure {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 10px;
+        width: 50%;
+        display: inline-block;
+
+        & a {
+          position: relative;
+          & img {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+          }
+        }
+      }
+
+      &:after,
+      &:before {
+        display: table;
+        content: "";
+      }
+    }
   }
 }

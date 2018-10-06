@@ -48,9 +48,12 @@
           <el-submenu index="4">
             <template slot="title">Dokter</template>
             <el-menu-item index="4-1">
-              <nuxt-link to="/dokter/jadwalreguler">Jadwal Dokter Poli Reguler</nuxt-link>
+              <nuxt-link to="/dokter/profil-dokter">Profil Dokter</nuxt-link>
             </el-menu-item>
             <el-menu-item index="4-2">
+              <nuxt-link to="/dokter/jadwalreguler">Jadwal Dokter Poli Reguler</nuxt-link>
+            </el-menu-item>
+            <el-menu-item index="4-3">
               <nuxt-link to="/dokter/jadwalnonreguler">Jadwal Dokter Poli Sore</nuxt-link>
             </el-menu-item>
           </el-submenu>
@@ -157,9 +160,12 @@
             <el-submenu index="2-4">
               <template slot="title">Dokter</template>
               <el-menu-item index="2-4-1">
-                <nuxt-link to="/dokter/jadwalreguler">Jadwal Dokter Poli Reguler</nuxt-link>
+                <nuxt-link to="/dokter/profil-dokter">Profil Dokter</nuxt-link>
               </el-menu-item>
               <el-menu-item index="2-4-2">
+                <nuxt-link to="/dokter/jadwalreguler">Jadwal Dokter Poli Reguler</nuxt-link>
+              </el-menu-item>
+              <el-menu-item index="2-4-3">
                 <nuxt-link to="/dokter/jadwalnonreguler">Jadwal Dokter Poli Sore</nuxt-link>
               </el-menu-item>
             </el-submenu>
