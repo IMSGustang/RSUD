@@ -1,5 +1,16 @@
 <template>
   <section class="c-profil">
+    <div class="c-head">
+      <div class="c-head__body">
+        <el-row type="flex" justify="center">
+          <el-col :xs="24" :sm="24" :md="20">
+            <h2 class="title">Laporan</h2>
+            <h6 class="subtitle">RSUD Labuang Baji Makassar</h6>
+          </el-col>
+        </el-row>
+      </div>
+    </div>
+
     <el-row type="flex" justify="center">
       <el-col :xs="24" :sm="24" :md="20">
         <div class="c-breadcrumb">

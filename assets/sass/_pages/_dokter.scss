@@ -1,0 +1,60 @@
+.c-doctor {
+  padding: 0 15px;
+
+  & .c-doctor--body {
+    padding-bottom: 30px;
+
+    & .title-date {
+      font-weight: 500;
+      margin-bottom: 20px;
+      color: #333333;
+    }
+
+    & .el-card {
+      margin-bottom: 20px;
+      border: none;
+
+      & .el-card__body {
+        padding: 0;
+
+        & .c-box {
+          -webkit-border-radius: 100px;
+          -moz-border-radius: 100px;
+          border-radius: 100px;
+          border: 2px solid #f6f5f4;
+          position: relative;
+          display: flex;
+          align-items: center;
+          overflow: hidden;
+          width: 180px;
+          height: 180px;
+
+          backface-visibility: hidden;
+          perspective: 1000px;
+          margin: 0 auto;
+
+          & .c-img {
+            max-width: 100%;
+
+            display: block;
+            vertical-align: middle;
+          }
+        }
+
+        & .item-body {
+          padding: 15px;
+          text-align: center;
+
+          & .title {
+            font-weight: 600;
+            font-size: 18px;
+          }
+          & .subtitle {
+            font-size: 14px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,16 @@
 <template>
   <section class="c-profil">
+    <div class="c-head">
+      <div class="c-head__body">
+        <el-row type="flex" justify="center">
+          <el-col :xs="24" :sm="24" :md="20">
+            <h2 class="title">Visi & Misi</h2>
+            <h6 class="subtitle">RSUD Labuang Baji Makassar</h6>
+          </el-col>
+        </el-row>
+      </div>
+    </div>
+
     <el-row type="flex" justify="center">
       <el-col :xs="24" :sm="24" :md="20">
         <div class="c-breadcrumb">
@@ -12,7 +23,7 @@
 
         <div class="c-profil--body">
           <el-card shadow="never">
-            <h2 class="title">Visi RSUD Labuang Baji Makassar</h2>
+            <h2 class="title">Visi</h2>
             <p>
               Visi RSUD Labuang Baji Makassar yaitu menjadi <strong>“rumah sakit
               unggulan di Sulawesi Selatan”</strong>
@@ -20,7 +31,7 @@
           </el-card>
 
           <el-card shadow="never">
-            <h2 class="title">Misi RSUD Labuang Baji Makassar</h2>
+            <h2 class="title">Misi</h2>
             <ol>
               <li> 1. Mewujudkan profesionalisme SDM </li>
               <li> 2. Meningkatkan sarana dan prasarana rumah sakit </li>

@@ -142,7 +142,7 @@
             <div style="position: relative">
               <swiper :options="swiperServices">
                 <swiper-slide>
-                  <nuxt-link to="">
+                  <nuxt-link to="/404">
                     <el-card shadow="never">
                       <div class="c-box-icon c-box-icon__border-1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -160,8 +160,9 @@
                     </el-card>
                   </nuxt-link>
                 </swiper-slide>
+
                 <swiper-slide>
-                  <nuxt-link to="">
+                  <nuxt-link to="/404">
                     <el-card shadow="never">
                       <div class="c-box-icon c-box-icon__border-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -179,8 +180,9 @@
                     </el-card>
                   </nuxt-link>
                 </swiper-slide>
+
                 <swiper-slide>
-                  <nuxt-link to="">
+                  <nuxt-link to="/404">
                     <el-card shadow="never">
                       <div class="c-box-icon c-box-icon__border-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
