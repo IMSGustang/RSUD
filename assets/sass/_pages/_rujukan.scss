@@ -1,0 +1,14 @@
+.c-rujukan {
+  padding: 0 15px;
+
+  & .c-rujukan--body {
+    padding-bottom: 100px;
+
+    & .title {
+      font-weight: 500;
+      font-size: 22px;
+      color: #333333;
+      margin-bottom: 15px;
+    }
+  }
+}

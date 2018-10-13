@@ -2,12 +2,20 @@
   padding: 0 15px;
 
   & .c-doctor--body {
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 
     & .title-date {
       font-weight: 500;
       margin-bottom: 20px;
       color: #333333;
+    }
+
+    & .subtitle {
+      margin-bottom: 20px;
+      margin-top: -15px;
+      position: relative;
+      color: #666666;
+      font-weight: 400;
     }
 
     & .el-card {
@@ -45,11 +53,11 @@
           padding: 15px;
           text-align: center;
 
-          & .title {
+          & h2 {
             font-weight: 600;
             font-size: 18px;
           }
-          & .subtitle {
+          & h4 {
             font-size: 14px;
             font-weight: 500;
           }

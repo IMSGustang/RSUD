@@ -24,18 +24,16 @@
         <div class="c-doctor--body">
           <el-row :gutter="20">
             <el-col :xs="24" :sm="12" :md="8" :lg="6" v-for="data in 8" :key="data">
-              <nuxt-link to="/artikel/view">
-                <el-card shadow="never">
-                  <div class="c-box">
-                    <img class="c-img" src="~/static/doctors/d2.png"/>
-                  </div>
+              <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
+                <div class="c-box">
+                  <img class="c-img" src="~/static/doctors/d2.png"/>
+                </div>
 
-                  <div class="item-body">
-                    <h2 class="title">Drs. Jhon Doe</h2>
-                    <h4 class="subtitle">Dokter Spesialis</h4>
-                  </div>
-                </el-card>
-              </nuxt-link>
+                <div class="item-body">
+                  <h2>Drs. Jhon Doe</h2>
+                  <h4>Dokter Spesialis</h4>
+                </div>
+              </el-card>
             </el-col>
           </el-row>
         </div>

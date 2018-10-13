@@ -5,6 +5,10 @@
         <nuxt-link to="/">
           <img src="~/static/labuangbaji.png"/>
         </nuxt-link>
+        <div class="box-title hidden-xs-only">
+          <h2 class="title">RSUD Labuang Baji Makassar</h2>
+          <h6 class="subtitle">Pemprov Sulawesi Selatan</h6>
+        </div>
       </div>
 
       <div class="c-navbar-item">
@@ -21,29 +25,11 @@
             <el-menu-item index="2-2">
               <nuxt-link to="/profil/sejarah">Sejarah</nuxt-link>
             </el-menu-item>
-            <el-menu-item index="2-3">
-              <nuxt-link to="/profil/laporan">Laporan Rumah Sakit</nuxt-link>
-            </el-menu-item>
           </el-submenu>
 
-          <el-submenu index="3">
-            <template slot="title">Artikel</template>
-            <el-menu-item index="3-1">
-              <nuxt-link to="/artikel/berita">Berita</nuxt-link>
-            </el-menu-item>
-            <el-menu-item index="3-2">
-              <nuxt-link to="/artikel/informasi">Informasi Kesehatan</nuxt-link>
-            </el-menu-item>
-            <el-menu-item index="3-3">
-              <nuxt-link to="/artikel/buletin">Buletin</nuxt-link>
-            </el-menu-item>
-            <el-menu-item index="3-4">
-              <nuxt-link to="/artikel/event">Event</nuxt-link>
-            </el-menu-item>
-            <el-menu-item index="3-5">
-              <nuxt-link to="/artikel/gallery">Gallery</nuxt-link>
-            </el-menu-item>
-          </el-submenu>
+          <el-menu-item index="3">
+            <nuxt-link to="/blog">Blog</nuxt-link>
+          </el-menu-item>
 
           <el-submenu index="4">
             <template slot="title">Dokter</template>
@@ -51,10 +37,7 @@
               <nuxt-link to="/dokter/profil-dokter">Profil Dokter</nuxt-link>
             </el-menu-item>
             <el-menu-item index="4-2">
-              <nuxt-link to="/dokter/jadwalreguler">Jadwal Dokter Poli Reguler</nuxt-link>
-            </el-menu-item>
-            <el-menu-item index="4-3">
-              <nuxt-link to="/dokter/jadwalnonreguler">Jadwal Dokter Poli Sore</nuxt-link>
+              <nuxt-link to="/dokter/jadwal">Jadwal Dokter</nuxt-link>
             </el-menu-item>
           </el-submenu>
 
@@ -70,21 +53,15 @@
               <nuxt-link to="/layanan/instalasi-gawat-darurat">Instalasi Gawat Darurat (24 Jam)</nuxt-link>
             </el-menu-item>
             <el-menu-item index="5-4">
-              <nuxt-link to="/layanan/instalasi-dialisis">Instalasi Dialisis</nuxt-link>
+              <nuxt-link to="/layanan/instalasi-hemodialisa">Instalasi Hemodialisa</nuxt-link>
             </el-menu-item>
             <el-menu-item index="5-5">
-              <nuxt-link to="/layanan/layanan-unggulan">Layanan Unggulan</nuxt-link>
+              <nuxt-link to="/layanan/instalasi-pemulasaran-jenazah">Instalasi Pemulasaran Jenazah</nuxt-link>
             </el-menu-item>
             <el-menu-item index="5-6">
-              <nuxt-link to="/layanan/perpustakaan">Perpustakaan</nuxt-link>
+              <nuxt-link to="/layanan/layanan-unggulan">Layanan Unggulan</nuxt-link>
             </el-menu-item>
             <el-menu-item index="5-7">
-              <nuxt-link to="/layanan/pendidikan-pelatihan">Pendidikan & Pelatihan (DIKLAT)</nuxt-link>
-            </el-menu-item>
-            <el-menu-item index="5-8">
-              <nuxt-link to="/layanan/pendidikan-penelitian">Bagian Pendidikan & Penelitian (DIKLIT)</nuxt-link>
-            </el-menu-item>
-            <el-menu-item index="5-9">
               <nuxt-link to="/layanan/penunjang">Penunjang</nuxt-link>
             </el-menu-item>
           </el-submenu>
@@ -95,18 +72,15 @@
               <nuxt-link to="/info/pendaftaran-online">Pendaftaran Online</nuxt-link>
             </el-menu-item>
             <el-menu-item index="6-2">
-              <nuxt-link to="/info/antrian-pendaftaran">Informasi Antrian & Pendaftaran</nuxt-link>
-            </el-menu-item>
-            <el-menu-item index="6-3">
               <nuxt-link to="/info/tempat-tidur">Informasi Tempat Tidur</nuxt-link>
             </el-menu-item>
-            <el-menu-item index="6-4">
-              <nuxt-link to="/info/kepuasan-pelanggan">Informasi Kepuasan Pelanggan</nuxt-link>
+            <el-menu-item index="6-3">
+              <nuxt-link to="/info/dokumen">Dokumen</nuxt-link>
             </el-menu-item>
           </el-submenu>
 
           <el-menu-item index="7">
-            <nuxt-link to="/rujukan/nasional">Rujukan Nasional</nuxt-link>
+            <nuxt-link to="/gallery">Gallery</nuxt-link>
           </el-menu-item>
         </el-menu>
 
@@ -125,6 +99,7 @@
             <el-menu-item index="2-1">
               <nuxt-link style="text-transform: uppercase;font-size: 13px;" to="/">Beranda</nuxt-link>
             </el-menu-item>
+
             <el-submenu index="2-2">
               <template slot="title">Profil</template>
               <el-menu-item index="2-2-1">
@@ -133,29 +108,11 @@
               <el-menu-item index="2-2-2">
                 <nuxt-link to="/profil/sejarah">Sejarah</nuxt-link>
               </el-menu-item>
-              <el-menu-item index="2-2-3">
-                <nuxt-link to="/profil/laporan">Laporan Rumah Sakit</nuxt-link>
-              </el-menu-item>
             </el-submenu>
 
-            <el-submenu index="2-3">
-              <template slot="title">Artikel</template>
-              <el-menu-item index="2-3-1">
-                <nuxt-link to="/artikel/berita">Berita</nuxt-link>
-              </el-menu-item>
-              <el-menu-item index="2-3-2">
-                <nuxt-link to="/artikel/informasi">Informasi Kesehatan</nuxt-link>
-              </el-menu-item>
-              <el-menu-item index="2-3-3">
-                <nuxt-link to="/artikel/buletin">Buletin</nuxt-link>
-              </el-menu-item>
-              <el-menu-item index="2-3-4">
-                <nuxt-link to="/artikel/event">Event</nuxt-link>
-              </el-menu-item>
-              <el-menu-item index="2-3-5">
-                <nuxt-link to="/artikel/gallery">Gallery</nuxt-link>
-              </el-menu-item>
-            </el-submenu>
+            <el-menu-item index="2-2">
+              <nuxt-link style="text-transform: uppercase;font-size: 13px;" to="/blog">Blog</nuxt-link>
+            </el-menu-item>
 
             <el-submenu index="2-4">
               <template slot="title">Dokter</template>
@@ -163,10 +120,7 @@
                 <nuxt-link to="/dokter/profil-dokter">Profil Dokter</nuxt-link>
               </el-menu-item>
               <el-menu-item index="2-4-2">
-                <nuxt-link to="/dokter/jadwalreguler">Jadwal Dokter Poli Reguler</nuxt-link>
-              </el-menu-item>
-              <el-menu-item index="2-4-3">
-                <nuxt-link to="/dokter/jadwalnonreguler">Jadwal Dokter Poli Sore</nuxt-link>
+                <nuxt-link to="/dokter/jadwal">Jadwal Dokter</nuxt-link>
               </el-menu-item>
             </el-submenu>
 
@@ -182,21 +136,15 @@
                 <nuxt-link to="/layanan/instalasi-gawat-darurat">Instalasi Gawat Darurat (24 Jam)</nuxt-link>
               </el-menu-item>
               <el-menu-item index="2-5-4">
-                <nuxt-link to="/layanan/instalasi-dialisis">Instalasi Dialisis</nuxt-link>
+                <nuxt-link to="/layanan/instalasi-hemodialisa">Instalasi Hemodialisa</nuxt-link>
               </el-menu-item>
               <el-menu-item index="2-5-5">
-                <nuxt-link to="/layanan/layanan-unggulan">Layanan Unggulan</nuxt-link>
+                <nuxt-link to="/layanan/instalasi-pemulasaran-jenazah">Instalasi Pemulasaran Jenazah</nuxt-link>
               </el-menu-item>
               <el-menu-item index="2-5-6">
-                <nuxt-link to="/layanan/perpustakaan">Perpustakaan</nuxt-link>
+                <nuxt-link to="/layanan/layanan-unggulan">Layanan Unggulan</nuxt-link>
               </el-menu-item>
               <el-menu-item index="2-5-7">
-                <nuxt-link to="/layanan/pendidikan-pelatihan">Pendidikan & Pelatihan (DIKLAT)</nuxt-link>
-              </el-menu-item>
-              <el-menu-item index="2-5-8">
-                <nuxt-link to="/layanan/pendidikan-penelitian">Bagian Pendidikan & Penelitian (DIKLIT)</nuxt-link>
-              </el-menu-item>
-              <el-menu-item index="2-5-9">
                 <nuxt-link to="/layanan/penunjang">Penunjang</nuxt-link>
               </el-menu-item>
             </el-submenu>
@@ -207,18 +155,15 @@
                 <nuxt-link to="/info/pendaftaran-online">Pendaftaran Online</nuxt-link>
               </el-menu-item>
               <el-menu-item index="2-6-2">
-                <nuxt-link to="/info/antrian-pendaftaran">Informasi Antrian & Pendaftaran</nuxt-link>
-              </el-menu-item>
-              <el-menu-item index="2-6-3">
                 <nuxt-link to="/info/tempat-tidur">Informasi Tempat Tidur</nuxt-link>
               </el-menu-item>
-              <el-menu-item index="2-6-4">
-                <nuxt-link to="/info/kepuasan-pelanggan">Informasi Kepuasan Pelanggan</nuxt-link>
+              <el-menu-item index="2-6-3">
+                <nuxt-link to="/info/dokumen">Dokumen</nuxt-link>
               </el-menu-item>
             </el-submenu>
 
-            <el-menu-item index="2-7" style="text-transform: uppercase">
-              <nuxt-link style="text-transform: uppercase;font-size: 13px;" to="/rujukan/nasional">Rujukan Nasional</nuxt-link>
+            <el-menu-item index="2-7">
+              <nuxt-link style="text-transform: uppercase;font-size: 13px;" to="/gallery">Gallery</nuxt-link>
             </el-menu-item>
           </el-submenu>
         </el-menu>

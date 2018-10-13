@@ -1,0 +1,74 @@
+.c-layanan {
+  padding: 0 15px;
+
+  & .c-layanan--body {
+    padding-bottom: 100px;
+
+    & .title {
+      text-align: left;
+      margin-bottom: 15px;
+      font-weight: 600;
+      color: #333333;
+      font-size: 26px;
+    }
+
+    & p {
+      font-size: 16px;
+      color: #333333;
+      line-height: 22px;
+      &.title-image {
+        text-transform: uppercase;
+        text-align: center;
+        margin: 10px;
+        color: #888888;
+        font-size: 14px;
+      }
+    }
+
+    & img {
+      max-width: 100%;
+      margin: 0 auto;
+      display: block;
+    }
+
+    & .el-collapse {
+      margin-bottom: 15px;
+      & .el-collapse-item {
+        & .el-collapse-item__header {
+          font-size: 16px;
+        }
+      }
+
+      & .el-collapse-item__content {
+        font-size: 15px;
+        color: #333333;
+
+        & ol {
+          margin-left: -10px;
+          & li {
+            color: #333333;
+            margin: 10px 0;
+            line-height: 20px;
+            font-size: 15px !important;
+
+            & div {
+              display: inline-block;
+              position: relative;
+              width: 120px;
+            }
+          }
+        }
+      }
+    }
+
+    & ol {
+      margin-left: -20px;
+      & li {
+        color: #333333;
+        margin: 10px 0;
+        line-height: 20px;
+        font-size: 16px;
+      }
+    }
+  }
+}

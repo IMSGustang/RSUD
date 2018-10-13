@@ -20,6 +20,16 @@
             <el-breadcrumb-item>syarat pendaftaran pasien bpjs</el-breadcrumb-item>
           </el-breadcrumb>
         </div>
+
+        <div class="c-info--body">
+          <el-collapse v-model="bpjs" accordion>
+            <el-collapse-item title="Pengantar" name="1">
+              <div>
+                Tidak ada deskripsi
+              </div>
+            </el-collapse-item>
+          </el-collapse>
+        </div>
       </el-col>
     </el-row>
   </section>
@@ -27,6 +37,11 @@
 
 <script>
   export default {
-    name: "syarat-pendaftaran-pasien-bpjs"
+    name: "syarat-pendaftaran-pasien-bpjs",
+    data() {
+      return {
+        bpjs: '1'
+      }
+    }
   }
 </script>

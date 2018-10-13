@@ -1,9 +1,21 @@
 <template>
   <section class="container">
     <div class="c-carousel">
-      <el-carousel indicator-position="none">
+      <el-carousel :interval="4200" indicator-position="none">
         <el-carousel-item>
           <img src="~/static/slide/s_1.jpg"/>
+        </el-carousel-item>
+        <el-carousel-item>
+          <img src="~/static/slide/s_2.jpg"/>
+        </el-carousel-item>
+        <el-carousel-item>
+          <img src="~/static/slide/s_3.jpg"/>
+        </el-carousel-item>
+        <el-carousel-item>
+          <img src="~/static/slide/s_4.jpg"/>
+        </el-carousel-item>
+        <el-carousel-item>
+          <img src="~/static/slide/s_5.jpg"/>
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -33,7 +45,7 @@
               </swiper-slide>
 
               <swiper-slide>
-                <nuxt-link to="/dokter/jadwalreguler">
+                <nuxt-link to="/dokter/jadwal">
                   <el-card class="color-2">
                     <div class="c-box-icon">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -73,7 +85,7 @@
               </swiper-slide>
 
               <swiper-slide>
-                <nuxt-link to="/info/antrian-pendaftaran">
+                <nuxt-link to="/dokter/profil-dokter">
                   <el-card class="color-4">
                     <div class="c-box-icon">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -86,44 +98,10 @@
                       </svg>
                     </div>
 
-                    Antrian Pasien
+                    Profil Dokter
                   </el-card>
                 </nuxt-link>
               </swiper-slide>
-
-              <!--<swiper-slide>-->
-              <!--<nuxt-link to="">-->
-              <!--<el-card class="color-5">-->
-              <!--<div class="c-box-icon">-->
-              <!--<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"-->
-              <!--stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"-->
-              <!--class="feather feather-heart">-->
-              <!--<path-->
-              <!--d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>-->
-              <!--</svg>-->
-              <!--</div>-->
-
-              <!--Kepuasan Pelanggan-->
-              <!--</el-card>-->
-              <!--</nuxt-link>-->
-              <!--</swiper-slide>-->
-              <!--<swiper-slide>-->
-              <!--<nuxt-link to="">-->
-              <!--<el-card class="color-6">-->
-              <!--<div class="c-box-icon">-->
-              <!--<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"-->
-              <!--stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"-->
-              <!--class="feather feather-mail">-->
-              <!--<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>-->
-              <!--<polyline points="22,6 12,13 2,6"></polyline>-->
-              <!--</svg>-->
-              <!--</div>-->
-
-              <!--Hubungi Kami-->
-              <!--</el-card>-->
-              <!--</nuxt-link>-->
-              <!--</swiper-slide>-->
-
               <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
               <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
             </swiper>
@@ -143,7 +121,7 @@
               <swiper :options="swiperServices">
                 <swiper-slide>
                   <nuxt-link to="/404">
-                    <el-card shadow="never">
+                    <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:300}">
                       <div class="c-box-icon c-box-icon__border-1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -156,14 +134,14 @@
                         </svg>
                       </div>
 
-                      Jantung Terpadu
+                      Pusat Rujukan TB - MDR
                     </el-card>
                   </nuxt-link>
                 </swiper-slide>
 
                 <swiper-slide>
                   <nuxt-link to="/404">
-                    <el-card shadow="never">
+                    <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
                       <div class="c-box-icon c-box-icon__border-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -176,14 +154,14 @@
                         </svg>
                       </div>
 
-                      Kanker Terpadu
+                      Bedah Saraf
                     </el-card>
                   </nuxt-link>
                 </swiper-slide>
 
                 <swiper-slide>
                   <nuxt-link to="/404">
-                    <el-card shadow="never">
+                    <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:300}">
                       <div class="c-box-icon c-box-icon__border-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -196,7 +174,7 @@
                         </svg>
                       </div>
 
-                      Homecare
+                      VCT
                     </el-card>
                   </nuxt-link>
                 </swiper-slide>
@@ -219,7 +197,7 @@
             <div style="position: relative">
               <swiper :options="swiperInformation">
                 <swiper-slide>
-                  <el-card shadow="never">
+                  <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
                     Syarat Pendaftaran Pasien BPJS
 
                     <p>
@@ -231,7 +209,7 @@
                     </p>
                   </el-card>
 
-                  <el-card shadow="never">
+                  <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:460}">
                     Ketersediaan Tempat Tidur
 
                     <p>
@@ -243,8 +221,9 @@
                     </p>
                   </el-card>
                 </swiper-slide>
+
                 <swiper-slide>
-                  <el-card shadow="never">
+                  <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:560}">
                     Pelajari Alur Pendaftaran
 
                     <p>
@@ -256,7 +235,7 @@
                     </p>
                   </el-card>
 
-                  <el-card shadow="never">
+                  <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:560}">
                     Informasi Jadwal Besuk
 
                     <p>
@@ -278,16 +257,110 @@
       </no-ssr>
     </div>
 
+    <div class="c-amenities">
+      <no-ssr>
+        <el-row type="flex" justify="center">
+          <el-col :xs="24" :sm="24" :md="20">
+            <h1 class="title">Fasilitas</h1>
+            <h5 class="subtitle">RSUD Labuang Baji memiliki fasilitas terbaik</h5>
+            <div style="position: relative">
+              <swiper :options="swiperAmenities">
+                <swiper-slide>
+                  <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
+                    <img src="~/static/fasilitas/F_1.jpg" />
+                  </el-card>
+                </swiper-slide>
+                <swiper-slide>
+                  <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
+                    <img src="~/static/fasilitas/F_2.jpg" />
+                  </el-card>
+                </swiper-slide>
+                <swiper-slide>
+                  <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
+                    <img src="~/static/fasilitas/F_1.jpg" />
+                  </el-card>
+                </swiper-slide>
+
+                <div class="swiper-pagination" slot="pagination"></div>
+              </swiper>
+            </div>
+          </el-col>
+        </el-row>
+      </no-ssr>
+    </div>
+
     <div class="c-news">
       <el-row type="flex" justify="center">
         <el-col :xs="24" :sm="24" :md="20">
           <h1 class="title">Berita Terbaru</h1>
           <el-row :gutter="20">
-            <el-col :xs="24" :sm="12" :md="6" :lg="8" v-for="data in 3" :key="data">
-              <nuxt-link to="/artikel/view">
-                <el-card shadow="never">
+            <el-col :xs="24" :sm="12" :md="6" :lg="8">
+              <nuxt-link to="/view">
+                <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
                   <el-tag size="medium">Berita</el-tag>
-                  <img class="c-img" src="~/static/news.png"/>
+                  <img class="c-img" src="~/static/gallery/kebidanan/DSCF9290.jpg"/>
+
+                  <div class="item-body">
+                    <p class="author"> Author : Humas RSUD Labuang Baji </p>
+
+                    <h2 class="c-title c-title-line">
+                      Direktur Utama RSUD Labuang Baji Dilantik Menjadi Ketua PERSI DIY Periode 2018-2021
+                    </h2>
+
+                    <p class="c-subtitle c-subtitle-line">
+                      Direktur Utama RSUP Dr. Sardjito, Dr. dr. Darwito, SH., Sp.B(K)Onk. dilantik menjadi ketua
+                      Perhimpunan Rumah Sakit Seluruh Indonesia (PERSI) Daerah Istimewa Yogyakarta (DIY) periode tahun
+                      2018-2021. Prosesi pelantikan pengurus PERSI dan MAKERSI (Majelis Kehormatan Etik Rumah Sakit
+                      Indonesia) DIY periode tahun 2018-2021 berlangsung di Ruang Utama Gedung Diklat RSUP Dr. Sardjito
+                      pada Jumat, 28 September 2018. Sebanyak 100 pengurus dari 67 rumah sakit yang menjadi anggota
+                      PERSI
+                      dilantik oleh ketua umum PERSI, yaitu dr. Kuntjoro Adi Purjanto, M.Kes. Dalam sambutannya, beliau
+                      menyampaikan setelah terbentuknya PERSI sekitar 40 tahun silam, PERSI harus memiliki core value
+                      yang
+                      terintegrasi sebagai pengerat visi dan misi yang telah dibentuk, seperti akses, pattient safety,
+                      pattient center care, cost effective, cost efficient, adil dan memperhitungkan waktu.
+                    </p>
+                  </div>
+                </el-card>
+              </nuxt-link>
+            </el-col>
+
+            <el-col :xs="24" :sm="12" :md="6" :lg="8">
+              <nuxt-link to="/view">
+                <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
+                  <el-tag size="medium">Kesehatan</el-tag>
+                  <img class="c-img" src="~/static/gallery/kebidanan/DSCF9293.jpg"/>
+
+                  <div class="item-body">
+                    <p class="author"> Author : Humas RSUD Labuang Baji </p>
+
+                    <h2 class="c-title c-title-line">
+                      Direktur Utama RSUD Labuang Baji Dilantik Menjadi Ketua PERSI DIY Periode 2018-2021
+                    </h2>
+
+                    <p class="c-subtitle c-subtitle-line">
+                      Direktur Utama RSUP Dr. Sardjito, Dr. dr. Darwito, SH., Sp.B(K)Onk. dilantik menjadi ketua
+                      Perhimpunan Rumah Sakit Seluruh Indonesia (PERSI) Daerah Istimewa Yogyakarta (DIY) periode tahun
+                      2018-2021. Prosesi pelantikan pengurus PERSI dan MAKERSI (Majelis Kehormatan Etik Rumah Sakit
+                      Indonesia) DIY periode tahun 2018-2021 berlangsung di Ruang Utama Gedung Diklat RSUP Dr. Sardjito
+                      pada Jumat, 28 September 2018. Sebanyak 100 pengurus dari 67 rumah sakit yang menjadi anggota
+                      PERSI
+                      dilantik oleh ketua umum PERSI, yaitu dr. Kuntjoro Adi Purjanto, M.Kes. Dalam sambutannya, beliau
+                      menyampaikan setelah terbentuknya PERSI sekitar 40 tahun silam, PERSI harus memiliki core value
+                      yang
+                      terintegrasi sebagai pengerat visi dan misi yang telah dibentuk, seperti akses, pattient safety,
+                      pattient center care, cost effective, cost efficient, adil dan memperhitungkan waktu.
+                    </p>
+                  </div>
+                </el-card>
+              </nuxt-link>
+            </el-col>
+
+            <el-col :xs="24" :sm="12" :md="6" :lg="8">
+              <nuxt-link to="/view">
+                <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
+                  <el-tag size="medium">Buletin</el-tag>
+                  <img class="c-img" src="~/static/gallery/kebidanan/DSCF9301.jpg"/>
 
                   <div class="item-body">
                     <p class="author"> Author : Humas RSUD Labuang Baji </p>
@@ -316,8 +389,8 @@
           </el-row>
 
           <p class="c-btn">
-            <nuxt-link to="/artikel/berita">
-              <el-button type="primary" size="medium" round plain>Lihat semua berita <i class="el-icon-more"></i>
+            <nuxt-link to="/blog">
+              <el-button type="primary" size="medium" round plain>Lihat semua berita  <i class="el-icon-arrow-right el-icon-right"></i>
               </el-button>
             </nuxt-link>
           </p>
@@ -393,6 +466,35 @@
           breakpoints: {
             1200: {
               slidesPerView: 2
+            },
+            992: {
+              slidesPerView: 2
+            },
+            768: {
+              slidesPerView: 2
+            },
+            520: {
+              slidesPerView: 1
+            },
+            330: {
+              slidesPerView: 1
+            }
+          }
+        },
+
+        swiperAmenities: {
+          slidesPerView: 3,
+          spaceBetween: 15,
+          autoplay: {
+            delay: 3600
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            dynamicBullets: true
+          },
+          breakpoints: {
+            1200: {
+              slidesPerView: 3
             },
             992: {
               slidesPerView: 2

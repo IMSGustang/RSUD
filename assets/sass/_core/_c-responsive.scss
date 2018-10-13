@@ -63,4 +63,18 @@
       }
     }
   }
+
+  .c-carousel {
+    & .el-carousel {
+      & .el-carousel__container {
+        height: 300px !important;
+        & .el-carousel__item {
+          & img {
+            max-width: 100%;
+            min-height: 300px !important;
+          }
+        }
+      }
+    }
+  }
 }
