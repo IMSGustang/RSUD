@@ -30,7 +30,6 @@
             :data="doctors"
             style="width: 100%">
             <el-table-column
-              fixed
               prop="dokter"
               label="Nama Dokter"
               width="220">
