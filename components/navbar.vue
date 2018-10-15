@@ -12,7 +12,7 @@
       </div>
 
       <div class="c-navbar-item">
-        <el-menu :default-active="activeDekstop" mode="horizontal" class="hidden-sm-and-down" @select="handleSelect">
+        <el-menu :default-active="activeDekstop" mode="horizontal" class="hidden-md-and-down" @select="handleSelect">
           <el-menu-item index="1">
             <nuxt-link to="/">Beranda</nuxt-link>
           </el-menu-item>
@@ -26,10 +26,6 @@
               <nuxt-link to="/profil/sejarah">Sejarah</nuxt-link>
             </el-menu-item>
           </el-submenu>
-
-          <el-menu-item index="3">
-            <nuxt-link to="/blog">Blog</nuxt-link>
-          </el-menu-item>
 
           <el-submenu index="4">
             <template slot="title">Dokter</template>
@@ -79,12 +75,16 @@
             </el-menu-item>
           </el-submenu>
 
+          <el-menu-item index="3">
+            <nuxt-link to="/blog">Blog</nuxt-link>
+          </el-menu-item>
+
           <el-menu-item index="7">
             <nuxt-link to="/gallery">Gallery</nuxt-link>
           </el-menu-item>
         </el-menu>
 
-        <el-menu :default-active="activeMobile" class="c-menu hidden-md-and-up" mode="horizontal" menu-trigger="click" @select="handleSelect">
+        <el-menu :default-active="activeMobile" class="c-menu hidden-lg-and-up" mode="horizontal" menu-trigger="click" @select="handleSelect">
           <el-submenu index="2">
             <template slot="title">
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
@@ -109,10 +109,6 @@
                 <nuxt-link to="/profil/sejarah">Sejarah</nuxt-link>
               </el-menu-item>
             </el-submenu>
-
-            <el-menu-item index="2-2">
-              <nuxt-link style="text-transform: uppercase;font-size: 13px;" to="/blog">Blog</nuxt-link>
-            </el-menu-item>
 
             <el-submenu index="2-4">
               <template slot="title">Dokter</template>
@@ -161,6 +157,10 @@
                 <nuxt-link to="/info/dokumen">Dokumen</nuxt-link>
               </el-menu-item>
             </el-submenu>
+
+            <el-menu-item index="2-2">
+              <nuxt-link style="text-transform: uppercase;font-size: 13px;" to="/blog">Blog</nuxt-link>
+            </el-menu-item>
 
             <el-menu-item index="2-7">
               <nuxt-link style="text-transform: uppercase;font-size: 13px;" to="/gallery">Gallery</nuxt-link>

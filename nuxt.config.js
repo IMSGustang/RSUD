@@ -40,6 +40,7 @@ module.exports = {
   plugins: [
     { src: '@/plugins/element-ui' },
     { src: '@/plugins/vue-scroll-reveal', ssr: false },
+    { src: '@/plugins/aos', ssr: false },
     { src: '@/plugins/vue-preview', ssr: false },
     { src: '@/plugins/vue-swiper', ssr: false }
   ],

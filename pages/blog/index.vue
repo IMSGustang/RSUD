@@ -53,14 +53,6 @@
               </nuxt-link>
             </el-col>
           </el-row>
-
-          <!--<div class="c-pagination">-->
-            <!--<el-pagination-->
-              <!--background-->
-              <!--layout="prev, pager, next"-->
-              <!--:total="1000">-->
-            <!--</el-pagination>-->
-          <!--</div>-->
         </div>
       </el-col>
     </el-row>

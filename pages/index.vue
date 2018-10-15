@@ -121,7 +121,7 @@
               <swiper :options="swiperServices">
                 <swiper-slide>
                   <nuxt-link to="/404">
-                    <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:300}">
+                    <el-card shadow="never" data-aos="fade-up" data-aos-duration="1500">
                       <div class="c-box-icon c-box-icon__border-1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -141,7 +141,7 @@
 
                 <swiper-slide>
                   <nuxt-link to="/404">
-                    <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
+                    <el-card shadow="never" data-aos="fade-down" data-aos-duration="2000">
                       <div class="c-box-icon c-box-icon__border-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -161,7 +161,7 @@
 
                 <swiper-slide>
                   <nuxt-link to="/404">
-                    <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:300}">
+                    <el-card shadow="never" data-aos="fade-right" data-aos-duration="2500">
                       <div class="c-box-icon c-box-icon__border-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -197,7 +197,7 @@
             <div style="position: relative">
               <swiper :options="swiperInformation">
                 <swiper-slide>
-                  <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
+                  <el-card shadow="never" data-aos="fade-left" data-aos-duration="1500">
                     Syarat Pendaftaran Pasien BPJS
 
                     <p>
@@ -209,7 +209,7 @@
                     </p>
                   </el-card>
 
-                  <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:460}">
+                  <el-card shadow="never" data-aos="fade-right" data-aos-duration="2000">
                     Ketersediaan Tempat Tidur
 
                     <p>
@@ -223,7 +223,7 @@
                 </swiper-slide>
 
                 <swiper-slide>
-                  <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:560}">
+                  <el-card shadow="never" data-aos="fade-up" data-aos-duration="1500">
                     Pelajari Alur Pendaftaran
 
                     <p>
@@ -235,7 +235,7 @@
                     </p>
                   </el-card>
 
-                  <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:560}">
+                  <el-card shadow="never" data-aos="fade-down" data-aos-duration="2000">
                     Informasi Jadwal Besuk
 
                     <p>
@@ -266,18 +266,43 @@
             <div style="position: relative">
               <swiper :options="swiperAmenities">
                 <swiper-slide>
-                  <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
-                    <img src="~/static/fasilitas/F_1.jpg" />
+                  <el-card shadow="never">
+                    <img src="~/static/fasilitas/F_1.png" />
                   </el-card>
                 </swiper-slide>
                 <swiper-slide>
-                  <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
-                    <img src="~/static/fasilitas/F_2.jpg" />
+                  <el-card shadow="never">
+                    <img src="~/static/fasilitas/F_2.png" />
                   </el-card>
                 </swiper-slide>
                 <swiper-slide>
-                  <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
-                    <img src="~/static/fasilitas/F_1.jpg" />
+                  <el-card shadow="never">
+                    <img src="~/static/fasilitas/F_3.png" />
+                  </el-card>
+                </swiper-slide>
+                <swiper-slide>
+                  <el-card shadow="never">
+                    <img src="~/static/fasilitas/F_4.png" />
+                  </el-card>
+                </swiper-slide>
+                <swiper-slide>
+                  <el-card shadow="never">
+                    <img src="~/static/fasilitas/F_5.png" />
+                  </el-card>
+                </swiper-slide>
+                <swiper-slide>
+                  <el-card shadow="never">
+                    <img src="~/static/fasilitas/F_6.png" />
+                  </el-card>
+                </swiper-slide>
+                <swiper-slide>
+                  <el-card shadow="never">
+                    <img src="~/static/fasilitas/F_7.png" />
+                  </el-card>
+                </swiper-slide>
+                <swiper-slide>
+                  <el-card shadow="never">
+                    <img src="~/static/fasilitas/F_8.png" />
                   </el-card>
                 </swiper-slide>
 
@@ -296,7 +321,7 @@
           <el-row :gutter="20">
             <el-col :xs="24" :sm="12" :md="6" :lg="8">
               <nuxt-link to="/view">
-                <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
+                <el-card shadow="never">
                   <el-tag size="medium">Berita</el-tag>
                   <img class="c-img" src="~/static/gallery/kebidanan/DSCF9290.jpg"/>
 
@@ -327,7 +352,7 @@
 
             <el-col :xs="24" :sm="12" :md="6" :lg="8">
               <nuxt-link to="/view">
-                <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
+                <el-card shadow="never">
                   <el-tag size="medium">Kesehatan</el-tag>
                   <img class="c-img" src="~/static/gallery/kebidanan/DSCF9293.jpg"/>
 
@@ -358,7 +383,7 @@
 
             <el-col :xs="24" :sm="12" :md="6" :lg="8">
               <nuxt-link to="/view">
-                <el-card shadow="never" v-scroll-reveal.reset.nomobile="{delay:360}">
+                <el-card shadow="never">
                   <el-tag size="medium">Buletin</el-tag>
                   <img class="c-img" src="~/static/gallery/kebidanan/DSCF9301.jpg"/>
 
@@ -422,7 +447,7 @@
               slidesPerView: 2
             },
             520: {
-              slidesPerView: 2
+              slidesPerView: 1
             },
             330: {
               slidesPerView: 1
@@ -448,7 +473,7 @@
               slidesPerView: 2
             },
             520: {
-              slidesPerView: 2
+              slidesPerView: 1
             },
             330: {
               slidesPerView: 1

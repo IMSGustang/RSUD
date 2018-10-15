@@ -22,111 +22,111 @@
         </div>
 
         <div class="c-layanan--body">
-          <h2 class="title">Daftar Poliklinik Rawat Jalan</h2>
+          <h2 class="title">Daftar Klinik Rawat Jalan</h2>
           <el-collapse v-model="rawatJalan" accordion>
-            <el-collapse-item title="Poliklinik Anak" name="1">
+            <el-collapse-item title="Klinik Anak" name="1">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik Bedah" name="2">
+            <el-collapse-item title="Klinik Bedah" name="2">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik Bedah Saraf" name="3">
+            <el-collapse-item title="Klinik Bedah Saraf" name="3">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik Gigi & Mulut" name="4">
+            <el-collapse-item title="Klinik Gigi & Mulut" name="4">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik Gizi" name="5">
+            <el-collapse-item title="Klinik Gizi" name="5">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik Interna" name="6">
+            <el-collapse-item title="Klinik Penyakit Dalam" name="6">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik Jantung" name="7">
+            <el-collapse-item title="Klinik Jantung" name="7">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik Jiwa" name="8">
+            <el-collapse-item title="Klinik Jiwa" name="8">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik Kulit" name="9">
+            <el-collapse-item title="Klinik Kulit" name="9">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik Mata" name="10">
+            <el-collapse-item title="Klinik Mata" name="10">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik Obgyn" name="11">
+            <el-collapse-item title="Klinik Kandungan" name="11">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik Bedah Onkoligi" name="12">
+            <el-collapse-item title="Klinik Bedah Onkoligi" name="12">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik Ortopedi" name="13">
+            <el-collapse-item title="Klinik Orthopedi" name="13">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik TB-Paru" name="14">
+            <el-collapse-item title="Klinik TB-Paru" name="14">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik TB-MDR" name="15">
+            <el-collapse-item title="Klinik TB-MDR" name="15">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik VCT" name="16">
+            <el-collapse-item title="Klinik VCT" name="16">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik Saraf" name="17">
+            <el-collapse-item title="Klinik Saraf" name="17">
               <div>
                 Tidak ada deskripsi!
               </div>
             </el-collapse-item>
 
-            <el-collapse-item title="Poliklinik THT" name="18">
+            <el-collapse-item title="Klinik THT" name="18">
               <div>
                 Tidak ada deskripsi!
               </div>

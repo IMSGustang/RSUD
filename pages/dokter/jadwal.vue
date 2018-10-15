@@ -36,8 +36,8 @@
               width="220">
             </el-table-column>
             <el-table-column
-              prop="poliklinik"
-              label="Poliklinik"
+              prop="klinik"
+              label="Klinik"
               width="200">
             </el-table-column>
 
@@ -87,7 +87,7 @@
       return {
         doctors: [{
           dokter:     'dr. Hj. Maryam,Sp.A',
-          poliklinik: 'POLIKLINIK ANAK',
+          klinik: 'KLINIK ANAK',
           senin:      '-',
           selasa:     '-',
           rabu:       '08:00 - 14:00',
@@ -96,7 +96,7 @@
           sabtu:      '-'
         }, {
           dokter:     'dr. Hj. Farida Albugis,Sp.A',
-          poliklinik: 'POLIKLINIK ANAK',
+          klinik: 'KLINIK ANAK',
           senin:      '-',
           selasa:     '-',
           rabu:       '-',
@@ -105,7 +105,7 @@
           sabtu:      '-'
         }, {
           dokter:     'dr. Hj. Rahmi Rahim,Sp.A',
-          poliklinik: 'POLIKLINIK ANAK',
+          klinik: 'KLINIK ANAK',
           senin:      '08:00 - 14:00',
           selasa:     '-',
           rabu:       '-',
@@ -114,7 +114,7 @@
           sabtu:      '-'
         }, {
           dokter:     'dr. Besse Sarmila,Sp.A',
-          poliklinik: 'POLIKLINIK ANAK',
+          klinik: 'KLINIK ANAK',
           senin:      '-',
           selasa:     '08:00 - 14:00',
           rabu:       '-',
@@ -123,7 +123,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Muhammad Kasim,Sp.B',
-          poliklinik: 'POLIKLINIK BEDAH',
+          klinik: 'KLINIK BEDAH',
           senin:      '-',
           selasa:     '-',
           rabu:       '-',
@@ -132,7 +132,7 @@
           sabtu:      '-'
         }, {
           dokter:     'dr. I Wayan Suka Arsana,Sp.B',
-          poliklinik: 'POLIKLINIK BEDAH',
+          klinik: 'KLINIK BEDAH',
           senin:      '08:00 - 14:00',
           selasa:     '-',
           rabu:       '08:00 - 14:00',
@@ -141,7 +141,7 @@
           sabtu:      '-'
         }, {
           dokter:     'dr. Margareth Sidharta,Sp.B',
-          poliklinik: 'POLIKLINIK BEDAH',
+          klinik: 'KLINIK BEDAH',
           senin:      '-',
           selasa:     '08:00 - 14:00',
           rabu:       '-',
@@ -150,7 +150,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Wahyudi, Sp.BS',
-          poliklinik: 'POLIKLINIK BEDAH SARAF',
+          klinik: 'KLINIK BEDAH SARAF',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -159,7 +159,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'drg. Xeriny Lilian T. Hasan, Sp.Pros',
-          poliklinik: 'POLIKLINIK GIGI & MULUT',
+          klinik: 'KLINIK GIGI & MULUT',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -168,7 +168,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'drg. Nurul Ramadhanty,Sp.BM',
-          poliklinik: 'POLIKLINIK GIGI & MULUT',
+          klinik: 'KLINIK GIGI & MULUT',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -177,7 +177,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'drg. Muhsanah Santa,Sp.KG',
-          poliklinik: 'POLIKLINIK GIGI & MULUT',
+          klinik: 'KLINIK GIGI & MULUT',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -186,7 +186,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'drg. Tri Tawan',
-          poliklinik: 'POLIKLINIK GIGI & MULUT',
+          klinik: 'KLINIK GIGI & MULUT',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -195,7 +195,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'drg. Erwin A. Launardo',
-          poliklinik: 'POLIKLINIK GIGI & MULUT',
+          klinik: 'KLINIK GIGI & MULUT',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -204,7 +204,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'drg. Rita Harianti Ladong',
-          poliklinik: 'POLIKLINIK GIGI & MULUT',
+          klinik: 'KLINIK GIGI & MULUT',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -213,7 +213,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'drg. Eka Fatmawati',
-          poliklinik: 'POLIKLINIK GIGI & MULUT',
+          klinik: 'KLINIK GIGI & MULUT',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -222,7 +222,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'Prof.DR.dr. Suryani As\'ad,M.Sc,Sp.GK(K)',
-          poliklinik: 'POLIKLINIK GIZI',
+          klinik: 'KLINIK GIZI',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -231,7 +231,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Umar Said,Sp.PD',
-          poliklinik: 'POLIKLINIK INTERNA',
+          klinik: 'KLINIK PENYAKIT DALAM',
           senin:      '-',
           selasa:     '-',
           rabu:       '-',
@@ -240,7 +240,7 @@
           sabtu:      '-'
         }, {
           dokter:     'dr. H. Muhammadong,Sp.PD',
-          poliklinik: 'POLIKLINIK INTERNA',
+          klinik: 'KLINIK PENYAKIT DALAM',
           senin:      '-',
           selasa:     '-',
           rabu:       '08:00 - 14:00',
@@ -249,7 +249,7 @@
           sabtu:      '-'
         }, {
           dokter:     'dr. Fabiola Maureen Shinta,Sp.PD',
-          poliklinik: 'POLIKLINIK INTERNA',
+          klinik: 'KLINIK PENYAKIT DALAM',
           senin:      '08:00 - 14:00',
           selasa:     '-',
           rabu:       '-',
@@ -258,7 +258,7 @@
           sabtu:      '-'
         }, {
           dokter:     'dr. Ariantin Ulfa Said Culla,Sp.PD',
-          poliklinik: 'POLIKLINIK INTERNA',
+          klinik: 'KLINIK PENYAKIT DALAM',
           senin:      '-',
           selasa:     '-',
           rabu:       '-',
@@ -267,7 +267,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'DR.dr. Rachmat Latief,Sp.PD,K-PTI,M.Kes,FINASIM',
-          poliklinik: 'POLIKLINIK INTERNA',
+          klinik: 'KLINIK PENYAKIT DALAM',
           senin:      '-',
           selasa:     '08:00 - 14:00',
           rabu:       '-',
@@ -276,7 +276,7 @@
           sabtu:      '-'
         }, {
           dokter:     'dr. Fadillah Maricar,Sp.JP',
-          poliklinik: 'POLIKLINIK JANTUNG',
+          klinik: 'KLINIK JANTUNG',
           senin:      '08:00 - 14:00',
           selasa:     '-',
           rabu:       '08:00 - 14:00',
@@ -285,7 +285,7 @@
           sabtu:      '-'
         }, {
           dokter:     'dr. Bogie Putra Palinngi,Sp.JP',
-          poliklinik: 'POLIKLINIK JANTUNG',
+          klinik: 'KLINIK JANTUNG',
           senin:      '-',
           selasa:     '08:00 - 14:00',
           rabu:       '-',
@@ -294,7 +294,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Hj. Rabiah Thantawie,Sp.KJ',
-          poliklinik: 'POLIKLINIK JIWA',
+          klinik: 'KLINIK JIWA',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -303,7 +303,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Januarsari Triwaty,Sp.KJ',
-          poliklinik: 'POLIKLINIK JIWA',
+          klinik: 'KLINIK JIWA',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -312,7 +312,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Widyawaty Djamaluddin,Sp.KK',
-          poliklinik: 'POLIKLINIK KULIT',
+          klinik: 'KLINIK KULIT',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -321,7 +321,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Fadlina Zainuddin,Sp.KK',
-          poliklinik: 'POLIKLINIK KULIT',
+          klinik: 'KLINIK KULIT',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -330,7 +330,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Hj. Hudaedah Mapeabang,Sp.M',
-          poliklinik: 'POLIKLINIK MATA',
+          klinik: 'KLINIK MATA',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -339,7 +339,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Munzyl Yunus,Sp.M',
-          poliklinik: 'POLIKLINIK MATA',
+          klinik: 'KLINIK MATA',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -348,7 +348,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Hj.A. Nursanty,Sp.OG',
-          poliklinik: 'POLIKLINIK OBGYN',
+          klinik: 'KLINIK KANDUNGAN',
           senin:      '-',
           selasa:     '08:00 - 14:00',
           rabu:       '-',
@@ -357,7 +357,7 @@
           sabtu:      '-'
         }, {
           dokter:     'dr. Wi Liong,Sp.OG',
-          poliklinik: 'POLIKLINIK OBGYN',
+          klinik: 'KLINIK KANDUNGAN',
           senin:      '08:00 - 14:00',
           selasa:     '-',
           rabu:       '-',
@@ -366,7 +366,7 @@
           sabtu:      '-'
         }, {
           dokter:     'dr. Darma Syanty,M.Kes,Sp,OG',
-          poliklinik: 'POLIKLINIK OBGYN',
+          klinik: 'KLINIK KANDUNGAN',
           senin:      '-',
           selasa:     '-',
           rabu:       '-',
@@ -375,7 +375,7 @@
           sabtu:      '-'
         }, {
           dokter:     'Dr.dr.Rina Previana Amiruddin,Sp.OG',
-          poliklinik: 'POLIKLINIK OBGYN',
+          klinik: 'KLINIK KANDUNGAN',
           senin:      '-',
           selasa:     '-',
           rabu:       '08:00 - 14:00',
@@ -384,7 +384,7 @@
           sabtu:      '-'
         }, {
           dokter:     'dr. Nurlaelah, M.Kes, Sp.OG',
-          poliklinik: 'POLIKLINIK OBGYN',
+          klinik: 'KLINIK KANDUNGAN',
           senin:      '-',
           selasa:     '-',
           rabu:       '08:00 - 14:00',
@@ -393,7 +393,7 @@
           sabtu:      '-'
         }, {
           dokter:     'dr. I Wayan Gede Suarsana,Sp.B(K)Onk',
-          poliklinik: 'POLIKLINIK BEDAH ONKOLOGI',
+          klinik: 'KLINIK BEDAH ONKOLOGI',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -402,7 +402,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. M. Nasser Mustari,Sp.OT',
-          poliklinik: 'POLIKLINIK ORTOPEDI',
+          klinik: 'KLINIK ORTHOPEDI',
           senin:      '-',
           selasa:     '08:00 - 14:00',
           rabu:       '-',
@@ -411,7 +411,7 @@
           sabtu:      '-'
         }, {
           dokter:     'dr. Zulfan Oktosatria Siregar,Sp.OT',
-          poliklinik: 'POLIKLINIK ORTOPEDI',
+          klinik: 'KLINIK ORTHOPEDI',
           senin:      '08:00 - 14:00',
           selasa:     '-',
           rabu:       '08:00 - 14:00',
@@ -420,7 +420,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Jamaluddin M,Sp.P',
-          poliklinik: 'POLIKLINIK TB-PARU',
+          klinik: 'KLINIK TB-PARU',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -429,7 +429,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Jamaluddin M,Sp.P',
-          poliklinik: 'POLIKLINIK TB-MDR',
+          klinik: 'KLINIK TB-MDR',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -438,7 +438,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Jamaluddin M,Sp.P',
-          poliklinik: 'POLIKLINIK VCT',
+          klinik: 'KLINIK VCT',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -447,7 +447,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Mimi Lotisna,Sp.S',
-          poliklinik: 'POLIKLINIK SARAF',
+          klinik: 'KLINIK SARAF',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -456,7 +456,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Ummu Atiah,Sp.S',
-          poliklinik: 'POLIKLINIK SARAF',
+          klinik: 'KLINIK SARAF',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -465,7 +465,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Trining Dyah,Sp.THT-KL',
-          poliklinik: 'POLIKLINIK THT',
+          klinik: 'KLINIK THT',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -474,7 +474,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Ade Chandra, M.Kes,Sp.THT-KL',
-          poliklinik: 'POLIKLINIK THT',
+          klinik: 'KLINIK THT',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',
@@ -483,7 +483,7 @@
           sabtu:      '08:00 - 14:00'
         }, {
           dokter:     'dr. Masyita Gaffar,Sp.THT-KL',
-          poliklinik: 'POLIKLINIK THT',
+          klinik: 'KLINIK THT',
           senin:      '08:00 - 14:00',
           selasa:     '08:00 - 14:00',
           rabu:       '08:00 - 14:00',

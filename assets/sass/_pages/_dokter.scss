@@ -18,6 +18,32 @@
       font-weight: 400;
     }
 
+    & .line-klinik {
+      position: relative;
+      margin: 20px 0;
+      margin-bottom: 40px;
+      display: block;
+      text-align: center;
+
+      & hr {
+        border: none;
+        border-top: 1px solid #f0f0f0;
+        position: absolute;
+        width: 100%;
+        top: 10px;
+      }
+
+      & span {
+        position: relative;
+        background: #ffffff;
+        padding: 5px 15px;
+        text-transform: uppercase;
+        color: #333333;
+        font-weight: bold;
+        z-index: 2;
+      }
+    }
+
     & .el-card {
       margin-bottom: 20px;
       border: none;
@@ -32,7 +58,7 @@
           border: 2px solid #f6f5f4;
           position: relative;
           display: flex;
-          align-items: center;
+          align-items: start;
           overflow: hidden;
           width: 180px;
           height: 180px;
@@ -45,7 +71,7 @@
             max-width: 100%;
 
             display: block;
-            vertical-align: middle;
+            vertical-align: top;
           }
         }
 
@@ -55,7 +81,7 @@
 
           & h2 {
             font-weight: 600;
-            font-size: 18px;
+            font-size: 16px;
           }
           & h4 {
             font-size: 14px;

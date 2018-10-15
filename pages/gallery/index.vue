@@ -24,18 +24,6 @@
           <no-ssr>
             <vue-preview :slides="slide1" @close="handleClose"></vue-preview>
           </no-ssr>
-
-          <!--<el-row>-->
-            <!--<el-col :span="24">-->
-              <!--<div class="c-pagination">-->
-                <!--<el-pagination-->
-                  <!--background-->
-                  <!--layout="prev, pager, next"-->
-                  <!--:total="1000">-->
-                <!--</el-pagination>-->
-              <!--</div>-->
-            <!--</el-col>-->
-          <!--</el-row>-->
         </div>
       </el-col>
     </el-row>
@@ -49,16 +37,16 @@
       return {
         slide1: [
           {
-            src: '/gallery/Apotik/DSCF9120.jpg',
-            msrc: '/gallery/Apotik/DSCF9120.jpg',
+            src: '/gallery/apotik/DSCF9120.jpg',
+            msrc: '/gallery/apotik/DSCF9120.jpg',
             alt: 'Apotik RSUD Labuang baji makassar',
             title: 'Apotik RSUD Labuang baji makassar',
             w: 600,
             h: 400
           },
           {
-            src: '/gallery/Apotik/DSCF9126.jpg',
-            msrc: '/gallery/Apotik/DSCF9126.jpg',
+            src: '/gallery/apotik/DSCF9126.jpg',
+            msrc: '/gallery/apotik/DSCF9126.jpg',
             alt: 'Apotik RSUD Labuang baji makassar',
             title: 'Apotik RSUD Labuang baji makassar',
             w: 600,

@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
   .el-menu--horizontal {
     border-top: 1px solid #EFEFF0;
 
@@ -28,6 +28,8 @@
           font-size: 14px;
           font-weight: 500;
           color: #333333;
+          display: block;
+          position: relative;
         }
       }
     }
@@ -63,15 +65,17 @@
       }
     }
   }
+}
 
+@media screen and (max-width: 968px) {
   .c-carousel {
     & .el-carousel {
       & .el-carousel__container {
-        height: 300px !important;
+        height: 200px !important;
         & .el-carousel__item {
           & img {
             max-width: 100%;
-            min-height: 300px !important;
+            min-height: 200px !important;
           }
         }
       }

@@ -61,6 +61,8 @@
             font-size: 13px;
             font-weight: 600;
             color: #909399 !important;
+            display: block;
+            position: relative;
 
             &.nuxt-link-exact-active {
               color: #333333 !important;
@@ -93,6 +95,9 @@
         font-size: 14px;
         font-weight: 500;
         color: #909399 !important;
+        display: block;
+        position: relative;
+
         &.nuxt-link-exact-active {
           color: #333333 !important;
         }
