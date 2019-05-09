@@ -3,19 +3,16 @@
     <div class="c-carousel">
       <el-carousel :interval="4200" indicator-position="none">
         <el-carousel-item>
-          <img src="~/static/slide/s_1.jpg"/>
+          <img src="~/static/slide/Head1.jpg"/>
         </el-carousel-item>
         <el-carousel-item>
-          <img src="~/static/slide/s_2.jpg"/>
+          <img src="~/static/slide/Head2.jpg"/>
         </el-carousel-item>
         <el-carousel-item>
-          <img src="~/static/slide/s_3.jpg"/>
+          <img src="~/static/slide/Head3.jpg"/>
         </el-carousel-item>
         <el-carousel-item>
-          <img src="~/static/slide/s_4.jpg"/>
-        </el-carousel-item>
-        <el-carousel-item>
-          <img src="~/static/slide/s_5.jpg"/>
+          <img src="~/static/slide/Head4.jpg"/>
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -120,8 +117,8 @@
             <div style="position: relative">
               <swiper :options="swiperServices">
                 <swiper-slide>
-                  <nuxt-link to="/404">
-                    <el-card shadow="never" data-aos="fade-up" data-aos-duration="1500">
+                  <nuxt-link to="layanan/layanan-unggulan">
+                    <el-card shadow="never">
                       <div class="c-box-icon c-box-icon__border-1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -140,8 +137,8 @@
                 </swiper-slide>
 
                 <swiper-slide>
-                  <nuxt-link to="/404">
-                    <el-card shadow="never" data-aos="fade-down" data-aos-duration="2000">
+                  <nuxt-link to="layanan/layanan-unggulan">
+                    <el-card shadow="never">
                       <div class="c-box-icon c-box-icon__border-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -160,8 +157,8 @@
                 </swiper-slide>
 
                 <swiper-slide>
-                  <nuxt-link to="/404">
-                    <el-card shadow="never" data-aos="fade-right" data-aos-duration="2500">
+                  <nuxt-link to="layanan/layanan-unggulan">
+                    <el-card shadow="never">
                       <div class="c-box-icon c-box-icon__border-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -197,7 +194,7 @@
             <div style="position: relative">
               <swiper :options="swiperInformation">
                 <swiper-slide>
-                  <el-card shadow="never" data-aos="fade-left" data-aos-duration="1500">
+                  <el-card shadow="never">
                     Syarat Pendaftaran Pasien BPJS
 
                     <p>
@@ -209,7 +206,7 @@
                     </p>
                   </el-card>
 
-                  <el-card shadow="never" data-aos="fade-right" data-aos-duration="2000">
+                  <el-card shadow="never">
                     Ketersediaan Tempat Tidur
 
                     <p>
@@ -223,7 +220,7 @@
                 </swiper-slide>
 
                 <swiper-slide>
-                  <el-card shadow="never" data-aos="fade-up" data-aos-duration="1500">
+                  <el-card shadow="never">
                     Pelajari Alur Pendaftaran
 
                     <p>
@@ -235,7 +232,7 @@
                     </p>
                   </el-card>
 
-                  <el-card shadow="never" data-aos="fade-down" data-aos-duration="2000">
+                  <el-card shadow="never">
                     Informasi Jadwal Besuk
 
                     <p>
@@ -312,115 +309,6 @@
           </el-col>
         </el-row>
       </no-ssr>
-    </div>
-
-    <div class="c-news">
-      <el-row type="flex" justify="center">
-        <el-col :xs="24" :sm="24" :md="20">
-          <h1 class="title">Berita Terbaru</h1>
-          <el-row :gutter="20">
-            <el-col :xs="24" :sm="12" :md="6" :lg="8">
-              <nuxt-link to="/view">
-                <el-card shadow="never">
-                  <el-tag size="medium">Berita</el-tag>
-                  <img class="c-img" src="~/static/gallery/kebidanan/DSCF9290.jpg"/>
-
-                  <div class="item-body">
-                    <p class="author"> Author : Humas RSUD Labuang Baji </p>
-
-                    <h2 class="c-title c-title-line">
-                      Direktur Utama RSUD Labuang Baji Dilantik Menjadi Ketua PERSI DIY Periode 2018-2021
-                    </h2>
-
-                    <p class="c-subtitle c-subtitle-line">
-                      Direktur Utama RSUP Dr. Sardjito, Dr. dr. Darwito, SH., Sp.B(K)Onk. dilantik menjadi ketua
-                      Perhimpunan Rumah Sakit Seluruh Indonesia (PERSI) Daerah Istimewa Yogyakarta (DIY) periode tahun
-                      2018-2021. Prosesi pelantikan pengurus PERSI dan MAKERSI (Majelis Kehormatan Etik Rumah Sakit
-                      Indonesia) DIY periode tahun 2018-2021 berlangsung di Ruang Utama Gedung Diklat RSUP Dr. Sardjito
-                      pada Jumat, 28 September 2018. Sebanyak 100 pengurus dari 67 rumah sakit yang menjadi anggota
-                      PERSI
-                      dilantik oleh ketua umum PERSI, yaitu dr. Kuntjoro Adi Purjanto, M.Kes. Dalam sambutannya, beliau
-                      menyampaikan setelah terbentuknya PERSI sekitar 40 tahun silam, PERSI harus memiliki core value
-                      yang
-                      terintegrasi sebagai pengerat visi dan misi yang telah dibentuk, seperti akses, pattient safety,
-                      pattient center care, cost effective, cost efficient, adil dan memperhitungkan waktu.
-                    </p>
-                  </div>
-                </el-card>
-              </nuxt-link>
-            </el-col>
-
-            <el-col :xs="24" :sm="12" :md="6" :lg="8">
-              <nuxt-link to="/view">
-                <el-card shadow="never">
-                  <el-tag size="medium">Kesehatan</el-tag>
-                  <img class="c-img" src="~/static/gallery/kebidanan/DSCF9293.jpg"/>
-
-                  <div class="item-body">
-                    <p class="author"> Author : Humas RSUD Labuang Baji </p>
-
-                    <h2 class="c-title c-title-line">
-                      Direktur Utama RSUD Labuang Baji Dilantik Menjadi Ketua PERSI DIY Periode 2018-2021
-                    </h2>
-
-                    <p class="c-subtitle c-subtitle-line">
-                      Direktur Utama RSUP Dr. Sardjito, Dr. dr. Darwito, SH., Sp.B(K)Onk. dilantik menjadi ketua
-                      Perhimpunan Rumah Sakit Seluruh Indonesia (PERSI) Daerah Istimewa Yogyakarta (DIY) periode tahun
-                      2018-2021. Prosesi pelantikan pengurus PERSI dan MAKERSI (Majelis Kehormatan Etik Rumah Sakit
-                      Indonesia) DIY periode tahun 2018-2021 berlangsung di Ruang Utama Gedung Diklat RSUP Dr. Sardjito
-                      pada Jumat, 28 September 2018. Sebanyak 100 pengurus dari 67 rumah sakit yang menjadi anggota
-                      PERSI
-                      dilantik oleh ketua umum PERSI, yaitu dr. Kuntjoro Adi Purjanto, M.Kes. Dalam sambutannya, beliau
-                      menyampaikan setelah terbentuknya PERSI sekitar 40 tahun silam, PERSI harus memiliki core value
-                      yang
-                      terintegrasi sebagai pengerat visi dan misi yang telah dibentuk, seperti akses, pattient safety,
-                      pattient center care, cost effective, cost efficient, adil dan memperhitungkan waktu.
-                    </p>
-                  </div>
-                </el-card>
-              </nuxt-link>
-            </el-col>
-
-            <el-col :xs="24" :sm="12" :md="6" :lg="8">
-              <nuxt-link to="/view">
-                <el-card shadow="never">
-                  <el-tag size="medium">Buletin</el-tag>
-                  <img class="c-img" src="~/static/gallery/kebidanan/DSCF9301.jpg"/>
-
-                  <div class="item-body">
-                    <p class="author"> Author : Humas RSUD Labuang Baji </p>
-
-                    <h2 class="c-title c-title-line">
-                      Direktur Utama RSUD Labuang Baji Dilantik Menjadi Ketua PERSI DIY Periode 2018-2021
-                    </h2>
-
-                    <p class="c-subtitle c-subtitle-line">
-                      Direktur Utama RSUP Dr. Sardjito, Dr. dr. Darwito, SH., Sp.B(K)Onk. dilantik menjadi ketua
-                      Perhimpunan Rumah Sakit Seluruh Indonesia (PERSI) Daerah Istimewa Yogyakarta (DIY) periode tahun
-                      2018-2021. Prosesi pelantikan pengurus PERSI dan MAKERSI (Majelis Kehormatan Etik Rumah Sakit
-                      Indonesia) DIY periode tahun 2018-2021 berlangsung di Ruang Utama Gedung Diklat RSUP Dr. Sardjito
-                      pada Jumat, 28 September 2018. Sebanyak 100 pengurus dari 67 rumah sakit yang menjadi anggota
-                      PERSI
-                      dilantik oleh ketua umum PERSI, yaitu dr. Kuntjoro Adi Purjanto, M.Kes. Dalam sambutannya, beliau
-                      menyampaikan setelah terbentuknya PERSI sekitar 40 tahun silam, PERSI harus memiliki core value
-                      yang
-                      terintegrasi sebagai pengerat visi dan misi yang telah dibentuk, seperti akses, pattient safety,
-                      pattient center care, cost effective, cost efficient, adil dan memperhitungkan waktu.
-                    </p>
-                  </div>
-                </el-card>
-              </nuxt-link>
-            </el-col>
-          </el-row>
-
-          <p class="c-btn">
-            <nuxt-link to="/blog">
-              <el-button type="primary" size="medium" round plain>Lihat semua berita  <i class="el-icon-arrow-right el-icon-right"></i>
-              </el-button>
-            </nuxt-link>
-          </p>
-        </el-col>
-      </el-row>
     </div>
   </section>
 </template>

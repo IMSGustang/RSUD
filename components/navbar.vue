@@ -18,12 +18,12 @@
           </el-menu-item>
 
           <el-submenu index="2">
-            <template slot="title">Profil</template>
+            <template slot="title">Tentang</template>
             <el-menu-item index="2-1">
-              <nuxt-link to="/profil/visimisi">Visi & Misi</nuxt-link>
+              <nuxt-link to="/profil/sejarah">Sejarah</nuxt-link>
             </el-menu-item>
             <el-menu-item index="2-2">
-              <nuxt-link to="/profil/sejarah">Sejarah</nuxt-link>
+              <nuxt-link to="/profil/visimisi">Visi & Misi</nuxt-link>
             </el-menu-item>
           </el-submenu>
 
@@ -75,10 +75,6 @@
             </el-menu-item>
           </el-submenu>
 
-          <el-menu-item index="3">
-            <nuxt-link to="/blog">Blog</nuxt-link>
-          </el-menu-item>
-
           <el-menu-item index="7">
             <nuxt-link to="/gallery">Gallery</nuxt-link>
           </el-menu-item>
@@ -101,12 +97,12 @@
             </el-menu-item>
 
             <el-submenu index="2-2">
-              <template slot="title">Profil</template>
+              <template slot="title">Tentang</template>
               <el-menu-item index="2-2-1">
-                <nuxt-link to="/profil/visimisi">Visi & Misi</nuxt-link>
+                <nuxt-link to="/profil/sejarah">Sejarah</nuxt-link>
               </el-menu-item>
               <el-menu-item index="2-2-2">
-                <nuxt-link to="/profil/sejarah">Sejarah</nuxt-link>
+                <nuxt-link to="/profil/visimisi">Visi & Misi</nuxt-link>
               </el-menu-item>
             </el-submenu>
 
@@ -157,10 +153,6 @@
                 <nuxt-link to="/info/dokumen">Dokumen</nuxt-link>
               </el-menu-item>
             </el-submenu>
-
-            <el-menu-item index="2-2">
-              <nuxt-link style="text-transform: uppercase;font-size: 13px;" to="/blog">Blog</nuxt-link>
-            </el-menu-item>
 
             <el-menu-item index="2-7">
               <nuxt-link style="text-transform: uppercase;font-size: 13px;" to="/gallery">Gallery</nuxt-link>

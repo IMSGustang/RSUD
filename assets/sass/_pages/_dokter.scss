@@ -1,94 +1,82 @@
 .c-doctor {
-  padding: 0 15px;
-
-  & .c-doctor--body {
-    padding-bottom: 100px;
-
-    & .title-date {
-      font-weight: 500;
-      margin-bottom: 20px;
-      color: #333333;
-    }
-
-    & .subtitle {
-      margin-bottom: 20px;
-      margin-top: -15px;
-      position: relative;
-      color: #666666;
-      font-weight: 400;
-    }
-
-    & .line-klinik {
-      position: relative;
-      margin: 20px 0;
-      margin-bottom: 40px;
-      display: block;
-      text-align: center;
-
-      & hr {
-        border: none;
-        border-top: 1px solid #f0f0f0;
-        position: absolute;
-        width: 100%;
-        top: 10px;
-      }
-
-      & span {
-        position: relative;
-        background: #ffffff;
-        padding: 5px 15px;
-        text-transform: uppercase;
-        color: #333333;
-        font-weight: bold;
-        z-index: 2;
-      }
-    }
-
-    & .el-card {
-      margin-bottom: 20px;
-      border: none;
-
-      & .el-card__body {
-        padding: 0;
-
-        & .c-box {
-          -webkit-border-radius: 100px;
-          -moz-border-radius: 100px;
-          border-radius: 100px;
-          border: 2px solid #f6f5f4;
-          position: relative;
-          display: flex;
-          align-items: start;
-          overflow: hidden;
-          width: 180px;
-          height: 180px;
-
-          backface-visibility: hidden;
-          perspective: 1000px;
-          margin: 0 auto;
-
-          & .c-img {
-            max-width: 100%;
-
-            display: block;
-            vertical-align: top;
-          }
+    padding: 0 15px;
+    & .c-doctor--body {
+        padding-bottom: 100px;
+        & .el-button--text {
+            width: 100%;
         }
-
-        & .item-body {
-          padding: 15px;
-          text-align: center;
-
-          & h2 {
-            font-weight: 600;
-            font-size: 16px;
-          }
-          & h4 {
-            font-size: 14px;
+        & .title-date {
             font-weight: 500;
-          }
+            margin-bottom: 20px;
+            color: #333333;
         }
-      }
+        & .subtitle {
+            margin-bottom: 20px;
+            margin-top: -15px;
+            position: relative;
+            color: #666666;
+            font-weight: 400;
+        }
+        & .line-klinik {
+            position: relative;
+            margin: 20px 0;
+            margin-bottom: 40px;
+            display: block;
+            text-align: center;
+            & hr {
+                border: none;
+                border-top: 1px solid #f0f0f0;
+                position: absolute;
+                width: 100%;
+                top: 10px;
+            }
+            & span {
+                position: relative;
+                background: #ffffff;
+                padding: 5px 15px;
+                text-transform: uppercase;
+                color: #333333;
+                font-weight: bold;
+                z-index: 2;
+            }
+        }
+        & .el-card {
+            margin-bottom: 20px;
+            border: none;
+            & .el-card__body {
+                padding: 0;
+                & .c-box {
+                    -webkit-border-radius: 100px;
+                    -moz-border-radius: 100px;
+                    border-radius: 100px;
+                    border: 2px solid #f6f5f4;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    overflow: hidden;
+                    width: 180px;
+                    height: 180px;
+                    backface-visibility: hidden;
+                    perspective: 1000px;
+                    margin: 0 auto;
+                    & .c-img {
+                        max-width: 100%;
+                        display: block;
+                    }
+                }
+                & .item-body {
+                    padding: 15px;
+                    text-align: center;
+                    & h2 {
+                        font-weight: 600;
+                        font-size: 16px;
+                    }
+                    & h4 {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
     }
-  }
 }
