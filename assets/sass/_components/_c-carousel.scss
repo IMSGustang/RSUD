@@ -1,22 +1,20 @@
 .c-carousel {
-  position: relative;
-  & .el-carousel {
-    & .el-carousel__container {
-      height: 480px;
-      & .el-carousel__item {
-        display: block;
-        opacity: 0;
-        transition: opacity 2s ease-in-out;
-
-        & img {
-          max-width: 100%;
-          min-height: 480px;
+    position: relative;
+    & .el-carousel {
+        & .el-carousel__container {
+            height: 560px;
+            & .el-carousel__item {
+                display: block;
+                opacity: 0;
+                transition: opacity 2s ease-in-out;
+                & img {
+                    max-width: 100%;
+                    min-height: 560px;
+                }
+                &.is-active {
+                    opacity: 1;
+                }
+            }
         }
-
-        &.is-active {
-          opacity: 1;
-        }
-      }
     }
-  }
 }

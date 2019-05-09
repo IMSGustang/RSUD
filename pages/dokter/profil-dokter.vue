@@ -65,16 +65,16 @@
               <el-button type="text" @click="dialogVisible2 = true">
                 <el-card shadow="never">
                   <div class="c-box">
-                    <img class="c-img" src="~/static/doctors/d1.png"/>
+                    <img class="c-img" src="~/static/doctors/ANAK/dr.Hj.FaridaAlbugis.Sp.A.jpg"/>
                   </div>
 
                   <div class="item-body">
-                    <h2>dr. Hj. Farida Albugis</h2>
+                    <h2>dr. Hj. Farida Albugis Sp.A</h2>
                   </div>
                 </el-card>
               </el-button>
               <el-dialog :visible.sync="dialogVisible2" width="60%">
-                <h1 style="margin-bottom: 5px;color: #333333;">dr. Hj. Farida Albugis</h1>
+                <h1 style="margin-bottom: 5px;color: #333333;">dr. Hj. Farida Albugis Sp.A</h1>
                 <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Anak</h4>
                 <p style="margin-bottom: 10px">
                   <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -97,16 +97,16 @@
               <el-button type="text" @click="dialogVisible3 = true">
                 <el-card shadow="never">
                   <div class="c-box">
-                    <img class="c-img" src="~/static/doctors/d1.png"/>
+                    <img class="c-img" src="~/static/doctors/ANAK/dr.Hj.RahmiRahim.Sp.A.jpg"/>
                   </div>
 
                   <div class="item-body">
-                    <h2>dr. Hj. Rahmi Rahim</h2>
+                    <h2>dr. Hj. Rahmi Rahim Sp.A</h2>
                   </div>
                 </el-card>
               </el-button>
               <el-dialog :visible.sync="dialogVisible3" width="60%">
-                <h1 style="margin-bottom: 5px;color: #333333;">dr. Hj. Rahmi Rahim</h1>
+                <h1 style="margin-bottom: 5px;color: #333333;">dr. Hj. Rahmi Rahim Sp.A</h1>
                 <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Anak</h4>
                 <p style="margin-bottom: 10px">
                   <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -129,16 +129,16 @@
               <el-button type="text" @click="dialogVisible4 = true">
                 <el-card shadow="never">
                   <div class="c-box">
-                    <img class="c-img" src="~/static/doctors/d1.png"/>
+                    <img class="c-img" src="~/static/doctors/ANAK/dr.BesseSarmila.Sp.A.jpg"/>
                   </div>
 
                   <div class="item-body">
-                    <h2>dr. Besse Sarmila</h2>
+                    <h2>dr. Besse Sarmila Sp.A</h2>
                   </div>
                 </el-card>
               </el-button>
               <el-dialog :visible.sync="dialogVisible4" width="60%">
-                <h1 style="margin-bottom: 5px;color: #333333;">dr. Besse Sarmila</h1>
+                <h1 style="margin-bottom: 5px;color: #333333;">dr. Besse Sarmila Sp.A</h1>
                 <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Anak</h4>
                 <p style="margin-bottom: 10px">
                   <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -232,16 +232,16 @@
                 <el-button type="text" @click="dialogVisible7 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d1.png"/>
+                      <img class="c-img" src="~/static/doctors/BEDAH/dr.MargarethSidharta.Sp.B.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Margareth Sidharta</h2>
+                      <h2>dr. Margareth Sidharta Sp.B</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible7" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Margareth Sidharta</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Margareth Sidharta Sp.B</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Bedah</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -273,16 +273,16 @@
                 <el-button type="text" @click="dialogVisible8 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d4.png"/>
+                      <img class="c-img" src="~/static/doctors/BEDAH-SARAF/dr.Wahyudi.Sp.BS.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Wahyudi</h2>
+                      <h2>dr. Wahyudi Sp.BS</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible8" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Wahyudi</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Wahyudi Sp.BS</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Bedah Saraf</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -305,7 +305,7 @@
 
 
           <div class="line-klinik">
-            <span>Klinik Gigi & Mulut</span>
+            <span>Klinik Gigi dan Mulut</span>
             <hr>
           </div>
           <div data-aos="fade-right">
@@ -314,17 +314,17 @@
                 <el-button type="text" @click="dialogVisible9 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d4.png"/>
+                      <img class="c-img" src="~/static/doctors/GIGI-DAN-MULUT/drg.XerinyLilianT.Hasan.Sp.Pros.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Xeriny Lilian T. Hasan</h2>
+                      <h2>drg. Xeriny Lilian T. Hasan Sp.Pros</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible9" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Xeriny Lilian T. Hasan</h1>
-                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Gigi & Mulut</h4>
+                  <h1 style="margin-bottom: 5px;color: #333333;">drg. Xeriny Lilian T. Hasan Sp.Pros</h1>
+                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Gigi dan Mulut</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
                   </p>
@@ -346,17 +346,17 @@
                 <el-button type="text" @click="dialogVisible10 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d1.png"/>
+                      <img class="c-img" src="~/static/doctors/GIGI-DAN-MULUT/drg.NurulRamadhanty.Sp.BM.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Nurul Ramadhanty</h2>
+                      <h2>drg. Nurul Ramadhanty Sp.BM</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible10" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Nurul Ramadhanty</h1>
-                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Gigi & Mulut</h4>
+                  <h1 style="margin-bottom: 5px;color: #333333;">drg. Nurul Ramadhanty Sp.BM</h1>
+                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Gigi dan Mulut</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
                   </p>
@@ -378,17 +378,17 @@
                 <el-button type="text" @click="dialogVisible11 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d1.png"/>
+                      <img class="c-img" src="~/static/doctors/GIGI-DAN-MULUT/drg.MuhsanahSanta.Sp.KG.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Muhsanah Santa</h2>
+                      <h2>drg. Muhsanah Santa Sp.KG</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible11" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Muhsanah Santa</h1>
-                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Gigi & Mulut</h4>
+                  <h1 style="margin-bottom: 5px;color: #333333;">drg. Muhsanah Santa Sp.KG</h1>
+                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Gigi dan Mulut</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
                   </p>
@@ -420,7 +420,7 @@
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible12" width="60%">
                   <h1 style="margin-bottom: 5px;color: #333333;">dr. Tri Tawan</h1>
-                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Gigi & Mulut</h4>
+                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Gigi dan Mulut</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
                   </p>
@@ -452,7 +452,7 @@
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible13" width="60%">
                   <h1 style="margin-bottom: 5px;color: #333333;">dr. Erwin A. Launardo</h1>
-                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Gigi & Mulut</h4>
+                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Gigi dan Mulut</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
                   </p>
@@ -484,7 +484,7 @@
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible14" width="60%">
                   <h1 style="margin-bottom: 5px;color: #333333;">dr. Rita Harianti Ladong</h1>
-                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Gigi & Mulut</h4>
+                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Gigi dan Mulut</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
                   </p>
@@ -516,7 +516,7 @@
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible15" width="60%">
                   <h1 style="margin-bottom: 5px;color: #333333;">dr. Eka Fatmawati</h1>
-                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Gigi & Mulut</h4>
+                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Gigi dan Mulut</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
                   </p>
@@ -588,16 +588,16 @@
                 <el-button type="text" @click="dialogVisible17 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d4.png"/>
+                      <img class="c-img" src="~/static/doctors/INTERNA/dr.UmarSaid.Sp.PD.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Umar Said</h2>
+                      <h2>dr. Umar Said Sp.PD</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible17" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Umar Said</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Umar Said Sp.PD</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Penyakit Dalam</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -620,16 +620,16 @@
                 <el-button type="text" @click="dialogVisible18 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d4.png"/>
+                      <img class="c-img" src="~/static/doctors/INTERNA/dr.H.Muhammadong.Sp.PD.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. H. Muhammadong</h2>
+                      <h2>dr. H. Muhammadong Sp.PD</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible18" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. H. Muhammadong</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. H. Muhammadong Sp.PD</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Penyakit Dalam</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -684,16 +684,16 @@
                 <el-button type="text" @click="dialogVisible20 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d1.png"/>
+                      <img class="c-img" src="~/static/doctors/INTERNA/dr.AriantinUlfaSaidCulla.Sp.PD.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Ariantin Ulfa Said Culla</h2>
+                      <h2>dr. Ariantin Ulfa Said Culla Sp.PD</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible20" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Ariantin Ulfa Said Culla</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Ariantin Ulfa Said Culla Sp.PD</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Penyakit Dalam</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -757,16 +757,16 @@
                 <el-button type="text" @click="dialogVisible22 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/Dr.Fadillah.jpg"/>
+                      <img class="c-img" src="~/static/doctors/JANTUNG/dr.FadillahMaricar.Sp.JP.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Fadillah Maricar</h2>
+                      <h2>dr. Fadillah Maricar Sp.JP</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible22" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Fadillah Maricar</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Fadillah Maricar Sp.JP</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Jantung</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -789,16 +789,16 @@
                 <el-button type="text" @click="dialogVisible23 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/Dr.Syaraf.jpg"/>
+                      <img class="c-img" src="~/static/doctors/JANTUNG/dr.BogiePutraPalinngi.Sp.JP.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Bogie Putra Palinngi</h2>
+                      <h2>dr. Bogie Putra Palinngi Sp.JP</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible23" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Bogie Putra Palinngi</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Bogie Putra Palinngi Sp.JP</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Jantung</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -830,16 +830,16 @@
                 <el-button type="text" @click="dialogVisible24 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d1.png"/>
+                      <img class="c-img" src="~/static/doctors/JIWA/dr.Hj.RabiahThantawie.Sp.KJ.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Hj. Rabiah Thantawie</h2>
+                      <h2>dr. Hj. Rabiah Thantawie Sp.KJ</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible24" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Hj. Rabiah Thantawie</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Hj. Rabiah Thantawie Sp.KJ</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Jiwa</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -862,16 +862,16 @@
                 <el-button type="text" @click="dialogVisible25 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d1.png"/>
+                      <img class="c-img" src="~/static/doctors/JIWA/dr.JanuarsariTriwaty.Sp.KJ.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Januarsari Triwaty</h2>
+                      <h2>dr. Januarsari Triwaty Sp.KJ</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible25" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Januarsari Triwaty</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Januarsari Triwaty Sp.KJ</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Jiwa</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -903,16 +903,16 @@
                 <el-button type="text" @click="dialogVisible26 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d1.png"/>
+                      <img class="c-img" src="~/static/doctors/KULIT/dr.WidyawatyDjamaluddin.Sp.KK.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Widyawaty Djamaluddin</h2>
+                      <h2>dr. Widyawaty Djamaluddin Sp.KK</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible26" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Widyawaty Djamaluddin</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Widyawaty Djamaluddin Sp.KK</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Kulit</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -935,16 +935,16 @@
                 <el-button type="text" @click="dialogVisible27 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d1.png"/>
+                      <img class="c-img" src="~/static/doctors/KULIT/dr.FadlinaZainuddin.Sp.KK.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Fadlina Zainuddin</h2>
+                      <h2>dr. Fadlina Zainuddin Sp.KK</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible27" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Fadlina Zainuddin</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Fadlina Zainuddin Sp.KK</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Kulit</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -976,16 +976,16 @@
                 <el-button type="text" @click="dialogVisible28 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d1.png"/>
+                      <img class="c-img" src="~/static/doctors/MATA/dr.Hj.HudaedahMapeabang.Sp.M.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Hj. Hudaedah Mapeabang</h2>
+                      <h2>dr. Hj. Hudaedah Mapeabang Sp.M</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible28" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Hj. Hudaedah Mapeabang</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Hj. Hudaedah Mapeabang Sp.M</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Mata</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -1008,16 +1008,16 @@
                 <el-button type="text" @click="dialogVisible29 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/Dr.Munzyl.jpg"/>
+                      <img class="c-img" src="~/static/doctors/MATA/dr.MunzylYunus.Sp.M.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Munzyl Yunus</h2>
+                      <h2>dr. Munzyl Yunus Sp.M</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible29" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Munzyl Yunus</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Munzyl Yunus Sp.M</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Mata</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -1081,16 +1081,16 @@
                 <el-button type="text" @click="dialogVisible31 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/Dr.wil.jpg"/>
+                      <img class="c-img" src="~/static/doctors/KANDUNGAN/dr.WiLiong.Sp.OG.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Wi Liong</h2>
+                      <h2>dr. Wi Liong Sp.OG</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible31" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Wi Liong</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Wi Liong Sp.OG</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik Kandungan</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -1250,7 +1250,7 @@
 
 
           <div class="line-klinik">
-            <span>Klinik ORTHOPEDI</span>
+            <span>Klinik ORTOPEDI</span>
             <hr>
           </div>
           <div data-aos="fade-right">
@@ -1259,17 +1259,17 @@
                 <el-button type="text" @click="dialogVisible36 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d4.png"/>
+                      <img class="c-img" src="~/static/doctors/ORTOPEDI/dr.M.NasserMustari.Sp.OT.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. M. Nasser Mustari</h2>
+                      <h2>dr. M. Nasser Mustari Sp.OT</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible36" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. M. Nasser Mustari</h1>
-                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik ORTHOPEDI</h4>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. M. Nasser Mustari Sp.OT</h1>
+                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik ORTOPEDI</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
                   </p>
@@ -1291,17 +1291,17 @@
                 <el-button type="text" @click="dialogVisible37 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d4.png"/>
+                      <img class="c-img" src="~/static/doctors/ORTOPEDI/dr.ZulfanOktosatriaSiregar.Sp.OT.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Zulfan Oktosatria Siregar</h2>
+                      <h2>dr. Zulfan Oktosatria Siregar Sp.OT</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible37" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Zulfan Oktosatria Siregar</h1>
-                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik ORTHOPEDI</h4>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Zulfan Oktosatria Siregar Sp.OT</h1>
+                  <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik ORTOPEDI</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
                   </p>
@@ -1332,16 +1332,16 @@
                 <el-button type="text" @click="dialogVisible38 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/d4.png"/>
+                      <img class="c-img" src="~/static/doctors/PARU/dr.JamaluddinM.Sp.P.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Jamaluddin M</h2>
+                      <h2>dr. Jamaluddin M Sp.P</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible38" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Jamaluddin M</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Jamaluddin M Sp.P</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik TB-PARU, TB-MDR,
                     VCT</h4>
                   <p style="margin-bottom: 10px">
@@ -1374,16 +1374,16 @@
                 <el-button type="text" @click="dialogVisible39 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/Dr.Mimi.jpg"/>
+                      <img class="c-img" src="~/static/doctors/SARAF/dr.MimiLotisna.Sp.S.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Mimi Lotisna</h2>
+                      <h2>dr. Mimi Lotisna Sp.S</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible39" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Mimi Lotisna</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Mimi Lotisna Sp.S</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik SARAF</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -1406,16 +1406,16 @@
                 <el-button type="text" @click="dialogVisible40 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/Dr.Ummu.jpg"/>
+                      <img class="c-img" src="~/static/doctors/SARAF/dr.UmmuAtiah.Sp.S.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Ummu Atiah</h2>
+                      <h2>dr. Ummu Atiah Sp.S</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible40" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Ummu Atiah</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Ummu Atiah Sp.S</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik SARAF</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
@@ -1479,16 +1479,16 @@
                 <el-button type="text" @click="dialogVisible42 = true">
                   <el-card shadow="never">
                     <div class="c-box">
-                      <img class="c-img" src="~/static/doctors/Dr.Ade_Chandra.jpg"/>
+                      <img class="c-img" src="~/static/doctors/THT/dr.AdeChandra.M.Kes.Sp.THT-KL.jpg"/>
                     </div>
 
                     <div class="item-body">
-                      <h2>dr. Ade Chandra</h2>
+                      <h2>dr. Ade Chandra M.Kes.Sp.THT</h2>
                     </div>
                   </el-card>
                 </el-button>
                 <el-dialog :visible.sync="dialogVisible42" width="60%">
-                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Ade Chandra</h1>
+                  <h1 style="margin-bottom: 5px;color: #333333;">dr. Ade Chandra M.Kes.Sp.THT</h1>
                   <h4 style="margin-bottom: 15px;font-weight: 500;color: #333333;">Spesialis Klinik THT</h4>
                   <p style="margin-bottom: 10px">
                     <small>NB: Jadwal sewaktu-waktu dapat berubah</small>
